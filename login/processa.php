@@ -6,16 +6,14 @@ $nome       =$_POST['nome'];
 $sobrenome  =$_POST['sobrenome'];
 $telefone   =$_POST['telefone'];
 $email      =$_POST['email'];
-$produto    =$_POST['produto'];
-$valor      =$_POST['valor'];
-$pagamento  =$_POST['pagamento'];
-$parcela    =$_POST['parcela'];
-$desconto   =$_POST['desconto'];
-$promocao   =$_POST['promocao'];
+$pais   	=$_POST['pais'];
+$estado     =$_POST['estado'];
+$bairro		=$_POST['bairro'];
+$cep	    =$_POST['cep'];
 $obs        =$_POST['obs'];
 
 
-$sql = "INSERT INTO clientes(nome, sobrenome, telefone, email, produto, valor, pagamento, parcela, desconto, promocao,obs) VALUES('$nome', '$sobrenome', '$telefone', '$email', '$produto', '$valor', '$pagamento', '$parcela', '$desconto', '$promocao', '$obs')";
+$sql = "INSERT INTO clientes(nome, sobrenome, telefone, email, pais, estado, bairro, cep, obs) VALUES('$nome', '$sobrenome', '$telefone', '$email', '$pais', '$estado', '$bairro', '$cep', '$obs')";
 mysqli_query($conexao, $sql);
 //{
 //header('Location: index.php');

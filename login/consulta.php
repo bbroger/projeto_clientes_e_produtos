@@ -1,6 +1,6 @@
 <?php
 session_start();
-$con=mysqli_connect("localhost","root","","");//conexão para busca
+$con=mysqli_connect("localhost","root","izaias147","Mfcomercio");//conexão para busca
 
 $filtro = isset($_GET['filtro'])?$_GET['filtro']:"";
 
@@ -48,14 +48,12 @@ while ($row = mysqli_fetch_array($result, MYSQLI_NUM)){
         print "Sobre nome: $row[2]<br>";
         print "Tel: $row[3]<br>";
         print "Email: $row[4]<br>";
-        print "Produto: $row[5]<br>";
-        print "Valor: $$row[6]<br>";
-        print "Tipo: $row[7]<br>";
-        print "Parcela: $row[8]<br>";
-        print "Desconto: $row[9]<br>";
-        print "Promoção: $row[10]<br>";
-        print "Entrada: $row[11]<br>";
-        print "Obs: $row[12]<br>";
+        print "País: $row[5]<br>";
+        print "Estado: $row[6]<br>";
+        print "Bairro: $row[7]<br>";
+        print "Cep: $row[8]<br>";
+        print "Entrada: $row[9]<br>";
+        print "Obs: $row[10]<br>";
         print "</article>";
 
 }

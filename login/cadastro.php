@@ -25,6 +25,9 @@ session_start();
 				<a href="painel.php">
 					<li>Painel</li>
 				</a>
+				<a href="https://www.life360.com/">
+					<li>GPS</li>
+				</a>
 				<a href="logout.php">
 					<li>Sair</li>
 				</a>
@@ -42,20 +45,17 @@ session_start();
 				<input type="text" name="telefone" class="campo"><br>
 				Email<br>
 				<input type="text" name="email" class="campo"><br>
-				Produto<br>
-				<input type="text" name="produto" class="campo"><br>
-				Valor<br>
-				<input type="text" name="valor" class="campo"><br>
-				Pagamento<br>
-				<input type="text" name="pagamento" class="campo"><br>
-				parcela<br>
-				<input type="text" name="parcela" class="campo"><br>
-				Desconto<br>
-				<input type="text" name="desconto" class="campo"><br>
-				promoção<br>
-				<input type="text" name="promocao" class="campo"><br>
+				País<br>
+				<input type="text" name="pais" class="campo"><br>
+				Estado<br>
+				<input type="text" name="estado" class="campo"><br>
+				Bairro<br>
+				<input type="text" name="bairro" class="campo"><br>
+				Cep<br>
+				<input type="text" name="cep" class="campo"><br>
 				Obs<br>
-				<input type="text" name="obs" class="campo">
+				<input type="text" size="35" name="obs" class="campo">
+				
 				<br><br>
 				<input type="submit" value="Salvar" class="btn">
 		</section>
