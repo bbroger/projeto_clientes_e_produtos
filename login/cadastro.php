@@ -18,6 +18,9 @@ session_start();
 				<a href="consulta.php">
 					<li>Consulta</li>
 				</a>
+				<a href="fatura.php">
+					<li>Consulta faturas</li>
+				</a>
 				<!--<a href="edita.php"><li>Edita</li></a>-->
 				<a href="https://www.google.com.br/maps">
 					<li>Mapas</li>
