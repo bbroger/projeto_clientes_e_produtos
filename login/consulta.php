@@ -1,6 +1,6 @@
 <?php
 session_start();
-$con=mysqli_connect("localhost","root","izaias147","Mfcomercio");//conexão para busca
+$con=mysqli_connect("localhost","root","","");//conexão para busca
 
 $filtro = isset($_GET['filtro'])?$_GET['filtro']:"";
 
