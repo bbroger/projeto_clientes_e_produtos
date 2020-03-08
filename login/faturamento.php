@@ -8,7 +8,7 @@ session_start();
 	<meta charset="utf-8">
 	<title>MfAdministration</title>
 	<link rel="shortcut icon" href="favicon/favicon.png" type="image/x-icon" />
-	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="css/faturamento.css">
 </head>
 
 <body>
@@ -44,13 +44,17 @@ session_start();
 			<hr><br>
 			<form method="POST" action="processa.php">
 				Nome<br>
-				<input type="text" name="nome" class="campo"><br>
+				<input type="text" name="nome_cliente" class="campo"><br>
 				Sobre Nome<br>
-				<input type="text" name="sobre_nome" class="campo"><br>
+				<input type="text" name="sobrenome" class="campo"><br>
 				Telefone<br>
 				<input type="text" name="telefone" class="campo"><br>
-				Email<br>
-				<input type="text" name="email" class="campo"><br>
+				Subtotal<br>
+				<input type="text" name="subtotal" class="campo"><br>
+				Desconto<br>
+				<input type="text" name="desconto" class="campo"><br>
+				Vendedor<br>
+				<input type="text" name="vendedor" class="campo"><br>
 				País<br>
 				<input type="text" name="pais" class="campo"><br>
 				Estado<br>
@@ -59,6 +63,10 @@ session_start();
 				<input type="text" name="bairro" class="campo"><br>
 				Cep<br>
 				<input type="text" name="cep" class="campo"><br>
+				Rua<br>
+				<input type="text" name="rua" class="campo"><br>
+				Numero<br>
+				<input type="text" name="subtotal" class="campo"><br>
 				Obs<br>
 				<input type="text" size="35" name="obs" class="campo">
 				

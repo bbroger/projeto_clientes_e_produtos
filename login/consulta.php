@@ -16,7 +16,7 @@ $registros = mysqli_num_rows($result);
     <meta charset="utf-8">
     <title>MfAdministration</title>
     <link rel="shortcut icon" href="favicon/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/consulta.css">
 </head>
 <body>
         <div class="container">

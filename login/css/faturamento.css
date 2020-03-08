@@ -24,7 +24,7 @@ body{
 
 #contents {  	
 	margin:auto;
-	width: 400px;
+	width: 600px;
 	margin-top:200px;	
 	background: #9FC; 
 	padding:100px; 	
@@ -42,7 +42,7 @@ nav{
 
 section{
 	width:500px;
-	max-height:auto;
+	max-height:700px;
 	margin-left:20px;
 	float:left;
 	background-color:#48d1cc;

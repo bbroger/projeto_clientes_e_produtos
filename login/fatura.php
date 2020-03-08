@@ -44,16 +44,20 @@ print "<br><br>";
 while ($row = mysqli_fetch_array($result, MYSQLI_NUM)){
         print "<article>";
         print "Id: $row[0]<br>";
-        print "Data do pedido: $row[1]<br>";
-        print "Subtotal: $row[2]<br>";
-        print "Desconto: $row[3]<br>";
-        print "vendedor: $row[4]<br>";
-        print "País: $row[5]<br>";
-        print "Estado: $row[6]<br>";
-        print "Bairro: $row[7]<br>";
-        print "Cep: $row[8]<br>";
-        print "Rua: $row[9]<br>";
-        print "Numero: $row[10]<br>";
+        print "Nome: $row[1]<br>";
+        print "Sobrenome: $row[2]<br>";
+        print "Telefone: $row[3]<br>";
+        print "Data do pedido: $row[4]<br>";
+        print "Subtotal: $row[5]<br>";
+        print "Desconto: $row[6]<br>";
+        print "vendedor: $row[7]<br>";
+        print "País: $row[8]<br>";
+        print "Estado: $row[9]<br>";
+        print "Bairro: $row[10]<br>";
+        print "Cep: $row[11]<br>";
+        print "Rua: $row[12]<br>";
+        print "Numero: $row[13]<br>";
+        print "Obs: $row[14]<br>";
         print "</article>";
 
 }
